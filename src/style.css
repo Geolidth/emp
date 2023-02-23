@@ -9,7 +9,8 @@
 */
 
 #about{
-    background-color: white;
+    background-color: royalblue;
+    color: white;
     border: 2px solid gold;
     text-align: center;
     position: fixed;
