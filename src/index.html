@@ -1,3 +1,13 @@
+<!--
+* File: app.js
+* Author: Csajbók-Reményi László
+* Copyright: 2023, Csajbók-Reményi László
+* Group: Szoft I/2/E
+* Date: 2023-02-23
+* Github: https://github.com/Geolidth/emp
+* Licenc: GNU GPL
+*/-->
+
 <!DOCTYPE html>
 <html lang="hu">
 
@@ -11,10 +21,22 @@
 
 <body>
     <div class="container">
-        <h1>Sablon</h1>
+        <h1>Dolgozók</h1>
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Név</th>
+                    <th>Település</th>
+                    <th>Fizetés</th>
+                </tr>
+            </thead>
+            <tbody id="tbody"></tbody>
+        </table>
     </div>
     
     <script src="app.js"></script>
+    <footer class="text-center" id="about">Csajbók-Reményi László 2023.02.23 SZOFT I/2/E</footer>
 
 </body>
 
